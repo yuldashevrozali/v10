@@ -1,0 +1,59 @@
+/* style.css */
+
+/* Body background color */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Input field styles */
+#malumotInput {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Button styles */
+#saqlashBtn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+#saqlashBtn:hover {
+    background-color: #2980b9;
+}
+
+/* List styles */
+#malumotList {
+    list-style: none;
+    padding: 0;
+}
+
+/* List item styles */
+#malumotList li {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
